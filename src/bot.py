@@ -55,6 +55,18 @@ class MachineNRevolution(commands.Bot):
                 count += 1
             await ctx.channel.send(embed=embed)
 
+        def add_command(name="createrule")
+        async def create_rule(ctx) -> None:
+            embed = discord.Embed(colour = Colour.gold())
+            embed.set_author(name='Commands:')
+            embed.add_field(name=">createname: ", value="create the character by provinding his/hers name", inline=True)
+            embed.add_field(name=">creatrace: ", value="choose the race by provinding his/hers name and the race number", inline=True)
+            embed.add_field(name=">creatclasss: ", value="choose the class by provinding his/hers name and the class number", inline=True)
+            embed.add_field(name=">createrule: ", value="print the commands", inline=True)
+            embed.add_field(name=">createrandom: ", value="create the character randomly", inline=True)
+            embed.add_field(name=">creatprint: ", value="print the characther stauts by provinding his/hers name", inline=True)
+            embed.add_field(name=">roll: ", value="roll the dice by providint its faces and the roll times", inline=True)
+
         @self.command(name="createname")
         async def createname(ctx, name: str) -> None:
             if name not in self.list_names:

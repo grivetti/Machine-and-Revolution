@@ -64,5 +64,5 @@
 ## I want to play... What sould I do?
 
     * I see you are a man of culture as well, to play the game, you must invite the bot to your server through the link:
-        * to begin with !createrule
+        * to begin with >createrule
         * https://discord.com/api/oauth2/authorize?client_id=708028271777939527&permissions=522304&scope=bot
