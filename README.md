@@ -31,7 +31,8 @@ Telepatic Psycho:
 
 Read Psycho:
   The most sane behind the psychos, they read the mind of everyone without control, and, because of that they are condemned by all the other races, besides the Peace Makers. Why does someone want to create some fredomless creatures like them?
-thunder_psycho:
+
+Thunder Psycho:
   Mad and cold as ice, their assasination intents are faster as the lighting strikes, some of them can be well intended, but at the end, they are killers.
 
 Doppelganger:
