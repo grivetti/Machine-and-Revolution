@@ -55,7 +55,7 @@ class MachineNRevolution(commands.Bot):
                 count += 1
             await ctx.channel.send(embed=embed)
 
-        @self.command(name="createrule")
+        def add_command(name="createrule")
         async def create_rule(ctx) -> None:
             embed = discord.Embed(colour = Colour.gold())
             embed.set_author(name='Commands:')
