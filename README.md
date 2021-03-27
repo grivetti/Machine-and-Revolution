@@ -70,4 +70,5 @@ Renegade:
 I see you are a man of culture as well, to play the game, you must invite the bot to your server through the link:
 
 to begin with: >createrule
+
 link of the shop: https://top.gg/bot/753048330098966620

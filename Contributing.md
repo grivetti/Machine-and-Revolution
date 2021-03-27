@@ -21,6 +21,16 @@ For those who really likes world building and develop new caracthers, this is fo
 *   Fanarts;
 *   Create original caracthers and sell it;
 
+## Donating
+You can donate for our project in the shop page or in this link:
+
+https://donatebot.io/checkout/571840316651601931
+
+The types of donating are:
+*   Survivor ($1.00)
+*   Tiger ($5.00)
+*   Lion King ($10.00)
+
 ## CODE OF CONDUCT
 
 We really love to see you fanfics and original caracthers built based in our world, but your story cannot have:
