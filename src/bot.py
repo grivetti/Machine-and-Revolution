@@ -68,7 +68,7 @@ class MachineNRevolution(commands.Bot):
             embed.add_field(name=">roll: ", value="roll the dice by providint its faces and the roll times", inline=True)
 
         @self.command(name="createname")
-        async def createname(ctx, name: str) -> None:
+        async def create_sname(ctx, name: str) -> None:
             if name not in self.list_names:
                 self.manager.players = name
                 self.manager.set_name(name)
@@ -86,7 +86,7 @@ class MachineNRevolution(commands.Bot):
             await ctx.channel.send(embed=embed)
 
         @self.command(name="createrace")
-        async def createrace(ctx, name:str,race: int) -> None:
+        async def create_race(ctx, name:str,race: int) -> None:
             races = [i for i in self.races.keys()]
             race_choice = races[race-1]
             self.manager.set_race(name, race_choice)
@@ -99,7 +99,7 @@ class MachineNRevolution(commands.Bot):
             embed.add_field(name="Next: ", value="Now use the command 'createclass name number' to choose the classs!", inline=True)
             await ctx.channel.send(embed=embed)
 
-        @self.command(name="create{errorclass")
+        @self.command(name="createclass")
         async def create_class(ctx,name:str, r_class: int) -> None:
             name = self.list_names[-1]
             classes = [i for i in self.classes.keys()]
